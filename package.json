@@ -1,0 +1,30 @@
+{
+  "name": "proof-of-achievement",
+  "version": "1.0.0",
+  "description": "Blockchain-backed credential verification protocol on Monad",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:monadTestnet": "hardhat run scripts/deploy.ts --network monadTestnet",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "solidity",
+    "monad",
+    "web3",
+    "credentials",
+    "hardhat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

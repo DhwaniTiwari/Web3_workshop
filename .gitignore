@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Hardhat files
+cache/
+artifacts/
+typechain-types/
+
+# Environment variables
+.env
+frontend/.env.local
+frontend/.env
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# IDE / OS files
+.DS_Store
+*.log
